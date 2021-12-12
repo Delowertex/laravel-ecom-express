@@ -29,6 +29,7 @@ class FooterMobile extends React.Component {
                         <p className="mt-3">Change Language</p>
                         <p className="mt-1" id="google_translate_element"></p>
                     </Row>
+                    <div id="google_translate_element"></div>
                 </Container>
                 <Container fluid={true} className=" m-0 pt-3 pb-1 bg-dark">
                     <Container className="">
