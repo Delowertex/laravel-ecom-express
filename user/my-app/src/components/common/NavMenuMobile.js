@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import {Button, Navbar} from "react-bootstrap";
 import MegaMenuMobile from "../home/MegaMenuMobile";
+import {Link} from "react-router-dom";
 class NavMenuMobile extends React.Component {
     constructor(props) {
         super(props);
@@ -31,7 +32,7 @@ class NavMenuMobile extends React.Component {
             <Fragment>
                 <Navbar fluid={"true"} className="fixed-top shadow-sm p-2 m-0 bg-white">
                     <a onClick={this.MenuBarClickHandler} className=" mx-2 navbar-brand"><i className="fa fa-bars"></i></a>
-                    <Button className="btn"><i className="fa fa-shopping-cart"></i> 4 items </Button>
+                    <Link to="/cart" className="btn"><i className="fa fa-shopping-cart"></i> 4 items </Link>
                     <a className="btn"><i className="fa h4 fa-heart"></i>  <sup><span className="badge text-white bg-danger">4</span></sup></a>
                     <a className="btn"><i className="fa h4  fa-bell"></i> <sup><span className="badge text-white bg-danger">4</span></sup></a>
                     <a className="btn"><i className="fa h4 fa-search"></i>  </a>

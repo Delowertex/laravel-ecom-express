@@ -10,6 +10,8 @@ import AboutPage from "../pages/AboutPage";
 import ProductDetialsPage from "../pages/ProductDetialsPage";
 import NotificationPage from "../pages/NotificationPage";
 import FavouritePage from "../pages/FavouritePage";
+import CartPage from "../pages/CartPage";
+import OrderPage from "../pages/OrderPage";
 class AppRoute extends React.Component {
 
     render(){
@@ -26,6 +28,8 @@ class AppRoute extends React.Component {
                     <Route exact path="/productdetails" element={<ProductDetialsPage />} />
                     <Route exact path="/notification" element={<NotificationPage />} />
                     <Route exact path="/favourite" element={<FavouritePage />} />
+                    <Route exact path="/cart" element={<CartPage />} />
+                    <Route exact path="/order" element={<OrderPage />} />
                 </Routes>
             </Fragment>
         );

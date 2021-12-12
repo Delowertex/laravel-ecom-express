@@ -34,7 +34,7 @@ class FooterDesktop extends React.Component {
                             <h5 className="footer-menu-title">DOWNLOAD APP</h5>
                             <a><img className="" src="Images/apple.png" alt=""/></a><br/>
                             <a><img className="mt-2" src="Images/playstore.png" alt=""/></a>
-                            <p className="mt-3">Change Language</p>
+                            <p className="mt-3">Google Language</p>
                             <p className="mt-1" id="google_translate_element"></p>
                         </Col>
                     </Row>
@@ -47,7 +47,6 @@ class FooterDesktop extends React.Component {
                             <p className="footer-text text-white">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
                         </Row>
                     </Container>
-                    <div id="google_translate_element"></div>
                 </Container>
             </div>
 
